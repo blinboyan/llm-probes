@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+coding/workspace/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# Results (regeneratable, may contain endpoint info)
+*_results*.json
+*_results*.jsonl
+probe_results*.jsonl
+scaling_results*.json
+
+# Environment / secrets
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
